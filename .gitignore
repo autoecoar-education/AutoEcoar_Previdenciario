@@ -1,0 +1,32 @@
+# Credenciais e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Pastas destinadas a documentos restritos
+**/00_Originais/
+**/Documentos_Sensiveis/
+**/Dados_Pessoais/
+**/Anexos_Restritos/
+
+# Arquivos temporários e backups
+*.tmp
+*.bak
+*.swp
+*~
+
+# Configurações locais de editores
+.vscode/
+.idea/
+
+# Cache Python
+__pycache__/
+*.pyc
+.venv/
+venv/
